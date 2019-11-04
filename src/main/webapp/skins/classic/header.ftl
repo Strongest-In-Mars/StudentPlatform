@@ -20,7 +20,7 @@
 <div class="nav">
     <h1 aria-label="${symphonyLabel}" class="tooltipped tooltipped-s">
         <a href="${servePath}">
-            <svg><use xlink:href="#logo"></use></svg>
+            <a href="https://sm.ms/image/c3z1iFyYAQkMSJU" target="_blank"><img src="https://i.loli.net/2019/11/04/c3z1iFyYAQkMSJU.png" style="width: 38px; margin-top: 7px;" /></a>
         </a>
     </h1>
     <div class="nav-tabs">

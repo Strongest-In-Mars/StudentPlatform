@@ -28,8 +28,8 @@
 <meta http-equiv="Window-target" content="_top" />
 <link rel="stylesheet" href="${staticServePath}/css/responsive.css?${staticResourceVersion}" />
 <link rel="stylesheet" href="${staticServePath}/css/base.css?${staticResourceVersion}" />
-<link rel="icon" type="image/png" href="${staticServePath}/images/favicon.png" />
-<link rel="apple-touch-icon" href="${staticServePath}/images/faviconH.png">
+<link rel="icon" type="image/png" href="https://i.loli.net/2019/11/04/wu1Ziz9eOpXqcJ3.png" />
+<link rel="apple-touch-icon" href="https://i.loli.net/2019/11/04/wu1Ziz9eOpXqcJ3.png">
 <link rel="search" type="application/opensearchdescription+xml" title="Sym" href="/opensearch.xml">
 ${siteVisitStatCode}
 </#macro>
