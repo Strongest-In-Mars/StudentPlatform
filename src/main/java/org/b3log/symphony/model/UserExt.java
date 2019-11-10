@@ -29,7 +29,7 @@ import org.json.JSONObject;
  * @author <a href="http://88250.b3log.org">Liang Ding</a>
  * @author Bill Ho
  * @version 2.16.0.1, Jan 10, 2019
- * @see org.b3log.latke.model.User
+ * @see User
  * @since 0.2.0
  */
 public final class UserExt {

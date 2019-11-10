@@ -23,6 +23,7 @@ import org.apache.commons.lang.time.DateFormatUtils;
 import org.apache.commons.lang.time.DateUtils;
 import org.b3log.latke.Keys;
 import org.b3log.latke.Latkes;
+import org.b3log.latke.http.RequestContext;
 import org.b3log.latke.ioc.Inject;
 import org.b3log.latke.logging.Level;
 import org.b3log.latke.logging.Logger;
@@ -32,7 +33,6 @@ import org.b3log.latke.repository.*;
 import org.b3log.latke.service.LangPropsService;
 import org.b3log.latke.service.ServiceException;
 import org.b3log.latke.service.annotation.Service;
-import org.b3log.latke.servlet.RequestContext;
 import org.b3log.latke.util.*;
 import org.b3log.symphony.cache.ArticleCache;
 import org.b3log.symphony.model.*;
@@ -1467,7 +1467,7 @@ public class ArticleQueryService {
      * Organizes the specified articles.
      *
      * @param articles the specified articles
-     * @see #organizeArticle(org.json.JSONObject)
+     * @see #organizeArticle(JSONObject)
      */
     public void organizeArticles(final List<JSONObject> articles) {
         Stopwatchs.start("Organize articles");
